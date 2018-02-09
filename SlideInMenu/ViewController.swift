@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         openButton.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
 
-    func handleMenu() {
+    @objc func handleMenu() {
         if DrawerViewController.instance.isDrawerOpen {
             self.closeDrawer()
         } else {

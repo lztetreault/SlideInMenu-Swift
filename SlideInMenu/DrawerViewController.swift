@@ -18,7 +18,7 @@ class DrawerViewController: UIViewController {
     let name: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Landon"
+        label.text = "Drawer Content"
         label.textAlignment = .center
         return label
     }()
